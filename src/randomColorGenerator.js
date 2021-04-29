@@ -6,5 +6,6 @@ export function getRandomColor() {
   for (let i = 0; i < 3; i++) {
     color += letters[Math.floor(Math.random() * 11)]
   }
+  // ask about this function
   return color
 }
